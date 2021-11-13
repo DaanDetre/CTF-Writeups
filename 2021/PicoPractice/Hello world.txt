@@ -1,0 +1,2 @@
+As I'm trying to refresh my memory and am less motivated than ever I decided to decrease the amount of challenge and focus on the learning!
+I will be working my way through all current PicoCTF Practice flags with and without using writeups, in here I will write down everything I did in my own words using or not using other writeups!
