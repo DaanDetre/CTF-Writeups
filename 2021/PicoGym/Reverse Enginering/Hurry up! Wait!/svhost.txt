@@ -1,0 +1,1010 @@
+
+int64_t __gmon_start__ = 0;
+
+void _init() {
+    int64_t rax1;
+
+    rax1 = __gmon_start__;
+    if (rax1) {
+        rax1();
+    }
+    return;
+}
+
+int64_t __cxa_finalize = 0;
+
+void fun_1c00(int64_t rdi) {
+    goto __cxa_finalize;
+}
+
+int64_t __gnat_runtime_finalize = 0x1b06;
+
+void fun_1b00() {
+    goto __gnat_runtime_finalize;
+}
+
+int64_t system__standard_library__adafinal = 0x1ad6;
+
+void fun_1ad0() {
+    goto system__standard_library__adafinal;
+}
+
+int64_t __gnat_runtime_initialize = 0x1be6;
+
+void fun_1be0(int64_t rdi) {
+    goto __gnat_runtime_initialize;
+}
+
+int64_t system__soft_links___elabs = 0x1b26;
+
+void fun_1b20(int64_t rdi) {
+    goto system__soft_links___elabs;
+}
+
+int64_t system__exception_table___elabb = 0x1ac6;
+
+void fun_1ac0(int64_t rdi) {
+    goto system__exception_table___elabb;
+}
+
+int64_t system__exceptions___elabs = 0x1ab6;
+
+void fun_1ab0(int64_t rdi) {
+    goto system__exceptions___elabs;
+}
+
+int64_t system__soft_links___elabb = 0x1a86;
+
+void fun_1a80(int64_t rdi) {
+    goto system__soft_links___elabb;
+}
+
+int64_t system__secondary_stack___elabb = 0x1a76;
+
+void fun_1a70(int64_t rdi) {
+    goto system__secondary_stack___elabb;
+}
+
+int64_t ada__io_exceptions___elabs = 0x1bb6;
+
+void fun_1bb0(int64_t rdi) {
+    goto ada__io_exceptions___elabs;
+}
+
+int64_t interfaces__c___elabs = 0x1a16;
+
+void fun_1a10(int64_t rdi) {
+    goto interfaces__c___elabs;
+}
+
+int64_t system__os_lib___elabb = 0x1a66;
+
+void fun_1a60(int64_t rdi) {
+    goto system__os_lib___elabb;
+}
+
+int64_t ada__tags___elabs = 0x1ba6;
+
+void fun_1ba0(int64_t rdi) {
+    goto ada__tags___elabs;
+}
+
+int64_t ada__tags___elabb = 0x1a46;
+
+void fun_1a40(int64_t rdi) {
+    goto ada__tags___elabb;
+}
+
+int64_t ada__streams___elabs = 0x1bd6;
+
+void fun_1bd0(int64_t rdi) {
+    goto ada__streams___elabs;
+}
+
+int64_t system__file_control_block___elabs = 0x1bf6;
+
+void fun_1bf0(int64_t rdi) {
+    goto system__file_control_block___elabs;
+}
+
+int64_t system__finalization_root___elabs = 0x1a26;
+
+void fun_1a20(int64_t rdi) {
+    goto system__finalization_root___elabs;
+}
+
+int64_t ada__finalization___elabs = 0x1b96;
+
+void fun_1b90(int64_t rdi) {
+    goto ada__finalization___elabs;
+}
+
+int64_t system__file_io___elabb = 0x1b46;
+
+void fun_1b40(int64_t rdi) {
+    goto system__file_io___elabb;
+}
+
+int64_t ada__calendar___elabs = 0x1a96;
+
+void fun_1a90(int64_t rdi) {
+    goto ada__calendar___elabs;
+}
+
+int64_t ada__calendar___elabb = 0x1ae6;
+
+void fun_1ae0(int64_t rdi) {
+    goto ada__calendar___elabb;
+}
+
+int64_t ada__calendar__delays___elabb = 0x1b36;
+
+void fun_1b30(int64_t rdi) {
+    goto ada__calendar__delays___elabb;
+}
+
+int64_t ada__text_io___elabs = 0x1aa6;
+
+void fun_1aa0(int64_t rdi) {
+    goto ada__text_io___elabs;
+}
+
+int64_t ada__text_io___elabb = 0x1b16;
+
+void fun_1b10(int64_t rdi) {
+    goto ada__text_io___elabb;
+}
+
+int64_t _ITM_deregisterTMCloneTable = 0;
+
+int64_t fun_1c40(int64_t rdi) {
+    int64_t rax2;
+
+    rax2 = 0x204018;
+    if (1 || (rax2 = _ITM_deregisterTMCloneTable, rax2 == 0)) {
+        return rax2;
+    } else {
+        goto rax2;
+    }
+}
+
+int64_t ada__text_io__finalize_spec = 0x1bc6;
+
+void fun_1bc0() {
+    goto ada__text_io__finalize_spec;
+}
+
+int64_t __gnat_finalize = 0x1a56;
+
+void fun_1a50(void* rdi) {
+    goto __gnat_finalize;
+}
+
+int64_t __gnat_reraise_library_exception_if_any = 0x1a36;
+
+void fun_1a30() {
+    goto __gnat_reraise_library_exception_if_any;
+}
+
+int64_t ada__text_io__put__4 = 0x1b56;
+
+void fun_1b50(int64_t rdi, int64_t rsi) {
+    goto ada__text_io__put__4;
+}
+
+int64_t __gnat_initialize = 0x1af6;
+
+void fun_1af0(void* rdi) {
+    goto __gnat_initialize;
+}
+
+unsigned char g204012 = 0;
+
+int32_t __gl_main_priority = 0;
+
+int32_t __gl_time_slice_val = 0;
+
+signed char __gl_wc_encoding = 0;
+
+signed char __gl_locking_policy = 0;
+
+signed char __gl_queuing_policy = 0;
+
+signed char __gl_task_dispatching_policy = 0;
+
+int64_t __gl_priority_specific_dispatching = 0;
+
+int32_t __gl_num_specific_dispatching = 0;
+
+int32_t __gl_main_cpu = 0;
+
+int64_t __gl_interrupt_states = 0;
+
+int32_t __gl_num_interrupt_states = 0;
+
+int32_t __gl_unreserve_all_interrupts = 0;
+
+int32_t __gl_detect_blocking = 0;
+
+int32_t __gl_default_stack_size = 0;
+
+int32_t __gl_leap_seconds_support = 0;
+
+int64_t __gnat_finalize_library_objects = 0;
+
+void fun_1d1a();
+
+uint16_t system__exception_table_E = 0;
+
+uint16_t system__exceptions_E = 0;
+
+uint16_t system__soft_links_E = 0;
+
+uint16_t system__secondary_stack_E = 0;
+
+uint16_t ada__io_exceptions_E = 0;
+
+uint16_t interfaces__c_E = 0;
+
+uint16_t system__os_lib_E = 0;
+
+uint16_t ada__tags_E = 0;
+
+uint16_t ada__streams_E = 0;
+
+uint16_t system__file_control_block_E = 0;
+
+uint16_t system__finalization_root_E = 0;
+
+uint16_t ada__finalization_E = 0;
+
+uint16_t system__file_io_E = 0;
+
+uint16_t ada__calendar_E = 0;
+
+uint16_t ada__calendar__delays_E = 0;
+
+uint16_t ada__text_io_E = 0;
+
+uint16_t g204014 = 0;
+
+void fun_1d7c(void* rdi) {
+    uint32_t eax2;
+    uint32_t eax3;
+    uint32_t eax4;
+    uint32_t eax5;
+    uint32_t eax6;
+    uint32_t eax7;
+    uint32_t eax8;
+    uint32_t eax9;
+    uint32_t eax10;
+    uint32_t eax11;
+    uint32_t eax12;
+    uint32_t eax13;
+    uint32_t eax14;
+    uint32_t eax15;
+    uint32_t eax16;
+    uint32_t eax17;
+    uint32_t eax18;
+    uint32_t eax19;
+    uint32_t eax20;
+    uint32_t eax21;
+    uint32_t eax22;
+    uint32_t eax23;
+    uint32_t eax24;
+    uint32_t eax25;
+    uint32_t eax26;
+    uint32_t eax27;
+    uint32_t eax28;
+    uint32_t eax29;
+    uint32_t eax30;
+    uint32_t eax31;
+    uint32_t eax32;
+    uint32_t eax33;
+    uint32_t eax34;
+    uint32_t eax35;
+    uint32_t eax36;
+
+    eax2 = g204012;
+    if (!*reinterpret_cast<signed char*>(&eax2)) {
+        g204012 = 1;
+        __gl_main_priority = -1;
+        __gl_time_slice_val = -1;
+        __gl_wc_encoding = 98;
+        __gl_locking_policy = 32;
+        __gl_queuing_policy = 32;
+        __gl_task_dispatching_policy = 32;
+        __gl_priority_specific_dispatching = 0x2c54;
+        __gl_num_specific_dispatching = 0;
+        __gl_main_cpu = -1;
+        __gl_interrupt_states = 0x2c55;
+        __gl_num_interrupt_states = 0;
+        __gl_unreserve_all_interrupts = 0;
+        __gl_detect_blocking = 0;
+        __gl_default_stack_size = -1;
+        __gl_leap_seconds_support = 0;
+        fun_1be0(1);
+        __gnat_finalize_library_objects = reinterpret_cast<int64_t>(fun_1d1a);
+        fun_1b20(1);
+        fun_1ac0(1);
+        eax3 = system__exception_table_E;
+        eax4 = eax3 + 1;
+        system__exception_table_E = *reinterpret_cast<uint16_t*>(&eax4);
+        fun_1ab0(1);
+        eax5 = system__exceptions_E;
+        eax6 = eax5 + 1;
+        system__exceptions_E = *reinterpret_cast<uint16_t*>(&eax6);
+        fun_1a80(1);
+        eax7 = system__soft_links_E;
+        eax8 = eax7 + 1;
+        system__soft_links_E = *reinterpret_cast<uint16_t*>(&eax8);
+        fun_1a70(1);
+        eax9 = system__secondary_stack_E;
+        eax10 = eax9 + 1;
+        system__secondary_stack_E = *reinterpret_cast<uint16_t*>(&eax10);
+        fun_1bb0(1);
+        eax11 = ada__io_exceptions_E;
+        eax12 = eax11 + 1;
+        ada__io_exceptions_E = *reinterpret_cast<uint16_t*>(&eax12);
+        fun_1a10(1);
+        eax13 = interfaces__c_E;
+        eax14 = eax13 + 1;
+        interfaces__c_E = *reinterpret_cast<uint16_t*>(&eax14);
+        fun_1a60(1);
+        eax15 = system__os_lib_E;
+        eax16 = eax15 + 1;
+        system__os_lib_E = *reinterpret_cast<uint16_t*>(&eax16);
+        fun_1ba0(1);
+        fun_1a40(1);
+        eax17 = ada__tags_E;
+        eax18 = eax17 + 1;
+        ada__tags_E = *reinterpret_cast<uint16_t*>(&eax18);
+        fun_1bd0(1);
+        eax19 = ada__streams_E;
+        eax20 = eax19 + 1;
+        ada__streams_E = *reinterpret_cast<uint16_t*>(&eax20);
+        fun_1bf0(1);
+        eax21 = system__file_control_block_E;
+        eax22 = eax21 + 1;
+        system__file_control_block_E = *reinterpret_cast<uint16_t*>(&eax22);
+        fun_1a20(1);
+        eax23 = system__finalization_root_E;
+        eax24 = eax23 + 1;
+        system__finalization_root_E = *reinterpret_cast<uint16_t*>(&eax24);
+        fun_1b90(1);
+        eax25 = ada__finalization_E;
+        eax26 = eax25 + 1;
+        ada__finalization_E = *reinterpret_cast<uint16_t*>(&eax26);
+        fun_1b40(1);
+        eax27 = system__file_io_E;
+        eax28 = eax27 + 1;
+        system__file_io_E = *reinterpret_cast<uint16_t*>(&eax28);
+        fun_1a90(1);
+        fun_1ae0(1);
+        eax29 = ada__calendar_E;
+        eax30 = eax29 + 1;
+        ada__calendar_E = *reinterpret_cast<uint16_t*>(&eax30);
+        fun_1b30(1);
+        eax31 = ada__calendar__delays_E;
+        eax32 = eax31 + 1;
+        ada__calendar__delays_E = *reinterpret_cast<uint16_t*>(&eax32);
+        fun_1aa0(1);
+        fun_1b10(1);
+        eax33 = ada__text_io_E;
+        eax34 = eax33 + 1;
+        ada__text_io_E = *reinterpret_cast<uint16_t*>(&eax34);
+        eax35 = g204014;
+        eax36 = eax35 + 1;
+        g204014 = *reinterpret_cast<uint16_t*>(&eax36);
+    }
+    return;
+}
+
+void fun_1b70(int64_t rdi);
+
+void fun_2616(int64_t rdi);
+
+void fun_24aa(int64_t rdi);
+
+void fun_2372(int64_t rdi);
+
+void fun_25e2(int64_t rdi);
+
+void fun_2852(int64_t rdi);
+
+void fun_2886(int64_t rdi);
+
+void fun_28ba(int64_t rdi);
+
+void fun_2922(int64_t rdi);
+
+void fun_23a6(int64_t rdi);
+
+void fun_2136(int64_t rdi);
+
+void fun_2206(int64_t rdi);
+
+void fun_230a(int64_t rdi);
+
+void fun_257a(int64_t rdi);
+
+void fun_28ee(int64_t rdi);
+
+void fun_240e(int64_t rdi);
+
+void fun_26e6(int64_t rdi);
+
+void fun_2782(int64_t rdi);
+
+void fun_22a2(int64_t rdi);
+
+void fun_226e(int64_t rdi);
+
+void fun_23da(int64_t rdi);
+
+void fun_233e(int64_t rdi);
+
+void fun_2956(int64_t rdi);
+
+void fun_298a(void* rdi) {
+    fun_1b70(0x38d7ea4c68000);
+    fun_2616(0x38d7ea4c68000);
+    fun_24aa(0x38d7ea4c68000);
+    fun_2372(0x38d7ea4c68000);
+    fun_25e2(0x38d7ea4c68000);
+    fun_2852(0x38d7ea4c68000);
+    fun_2886(0x38d7ea4c68000);
+    fun_28ba(0x38d7ea4c68000);
+    fun_2922(0x38d7ea4c68000);
+    fun_23a6(0x38d7ea4c68000);
+    fun_2136(0x38d7ea4c68000);
+    fun_2206(0x38d7ea4c68000);
+    fun_230a(0x38d7ea4c68000);
+    fun_2206(0x38d7ea4c68000);
+    fun_257a(0x38d7ea4c68000);
+    fun_28ee(0x38d7ea4c68000);
+    fun_240e(0x38d7ea4c68000);
+    fun_26e6(0x38d7ea4c68000);
+    fun_2782(0x38d7ea4c68000);
+    fun_28ee(0x38d7ea4c68000);
+    fun_22a2(0x38d7ea4c68000);
+    fun_226e(0x38d7ea4c68000);
+    fun_23da(0x38d7ea4c68000);
+    fun_2206(0x38d7ea4c68000);
+    fun_230a(0x38d7ea4c68000);
+    fun_233e(0x38d7ea4c68000);
+    fun_2136(0x38d7ea4c68000);
+    fun_2956(0x38d7ea4c68000);
+    return;
+}
+
+void fun_1d52(void* rdi) {
+    uint32_t eax2;
+    uint32_t eax3;
+
+    eax2 = g204012;
+    eax3 = eax2 ^ 1;
+    if (!*reinterpret_cast<signed char*>(&eax3)) {
+        g204012 = 0;
+        fun_1b00();
+        fun_1ad0();
+    }
+    return;
+}
+
+int64_t ada__calendar__delays__delay_for = 0x1b76;
+
+void fun_1b70(int64_t rdi) {
+    goto ada__calendar__delays__delay_for;
+}
+
+void fun_2616(int64_t rdi) {
+    fun_1b50("pqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_24aa(int64_t rdi) {
+    fun_1b50("ijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2372(int64_t rdi) {
+    fun_1b50("cdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_25e2(int64_t rdi) {
+    fun_1b50("opqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2852(int64_t rdi) {
+    fun_1b50("CTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2886(int64_t rdi) {
+    fun_1b50("TF_{}", 0x2cb8);
+    return;
+}
+
+void fun_28ba(int64_t rdi) {
+    fun_1b50("F_{}", 0x2cb8);
+    return;
+}
+
+void fun_2922(int64_t rdi) {
+    fun_1b50("{}", 0x2cb8);
+    return;
+}
+
+void fun_23a6(int64_t rdi) {
+    fun_1b50("defghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2136(int64_t rdi) {
+    fun_1b50("123456789abcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2206(int64_t rdi) {
+    fun_1b50("56789abcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_230a(int64_t rdi) {
+    fun_1b50("abcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_257a(int64_t rdi) {
+    fun_1b50("mnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_28ee(int64_t rdi) {
+    fun_1b50("_{}", 0x2cb8);
+    return;
+}
+
+void fun_240e(int64_t rdi) {
+    fun_1b50("fghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_26e6(int64_t rdi) {
+    fun_1b50("tuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2782(int64_t rdi) {
+    fun_1b50("wxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_22a2(int64_t rdi) {
+    fun_1b50("89abcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_226e(int64_t rdi) {
+    fun_1b50("789abcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_23da(int64_t rdi) {
+    fun_1b50("efghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_233e(int64_t rdi) {
+    fun_1b50("bcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2956(int64_t rdi) {
+    fun_1b50("}", 0x2cb8);
+    return;
+}
+
+int64_t ada__text_io__put_line__2 = 0x1b66;
+
+void fun_1b60(int64_t rdi, int64_t rsi) {
+    goto ada__text_io__put_line__2;
+}
+
+int64_t system__file_io__finalize_body = 0x1b86;
+
+void fun_1b80() {
+    goto system__file_io__finalize_body;
+}
+
+int64_t __libc_start_main = 0;
+
+int64_t fun_1fcc(int32_t edi, int64_t rsi, int64_t rdx);
+
+void fun_2a30(int32_t edi, int64_t rsi, int64_t rdx);
+
+void fun_2aa0();
+
+void fun_1c10() {
+    void* rsp1;
+    int64_t rdx2;
+    int64_t rax3;
+
+    rsp1 = reinterpret_cast<void*>(reinterpret_cast<int64_t>(__zero_stack_offset()) + 8);
+    __libc_start_main(fun_1fcc, __return_address(), rsp1, fun_2a30, fun_2aa0, rdx2, (reinterpret_cast<uint64_t>(rsp1) & 0xfffffffffffffff0) - 8 - 8, rax3);
+    __asm__("hlt ");
+}
+
+void _fini() {
+    return;
+}
+
+void fun_1cb7() {
+    int64_t v1;
+
+    goto v1;
+}
+
+void fun_2aa0() {
+    return;
+}
+
+int64_t _ITM_registerTMCloneTable = 0;
+
+void fun_1c72() {
+    int64_t rax1;
+
+    if (1) 
+        goto 0x1cc0;
+    rax1 = _ITM_registerTMCloneTable;
+    if (!rax1) 
+        goto 0x1cc0;
+    goto rax1;
+}
+
+signed char g2041a2 = 0;
+
+int64_t g204008 = 0x204008;
+
+int64_t fun_1cd0() {
+    int1_t zf1;
+    int64_t rax2;
+    int1_t zf3;
+    int64_t rdi4;
+    int64_t rax5;
+
+    zf1 = g2041a2 == 0;
+    if (!zf1) {
+        return rax2;
+    } else {
+        zf3 = __cxa_finalize == 0;
+        if (!zf3) {
+            rdi4 = g204008;
+            fun_1c00(rdi4);
+        }
+        rax5 = fun_1c40(rdi4);
+        g2041a2 = 1;
+        return rax5;
+    }
+}
+
+int64_t g203ed8 = 0;
+
+void fun_1b06() {
+    goto g203ed8;
+}
+
+void fun_1ad6() {
+    goto 0x1a00;
+}
+
+void fun_1be6() {
+    goto 0x1a00;
+}
+
+void fun_1b26() {
+    goto 0x1a00;
+}
+
+void fun_1ac6() {
+    goto 0x1a00;
+}
+
+void fun_1ab6() {
+    goto 0x1a00;
+}
+
+void fun_1a86() {
+    goto 0x1a00;
+}
+
+void fun_1a76() {
+    goto 0x1a00;
+}
+
+void fun_1bb6() {
+    goto 0x1a00;
+}
+
+void fun_1a16() {
+    goto 0x1a00;
+}
+
+void fun_1a66() {
+    goto 0x1a00;
+}
+
+void fun_1ba6() {
+    goto 0x1a00;
+}
+
+void fun_1a46() {
+    goto 0x1a00;
+}
+
+void fun_1bd6() {
+    goto 0x1a00;
+}
+
+void fun_1bf6() {
+    goto 0x1a00;
+}
+
+void fun_1a26() {
+    goto 0x1a00;
+}
+
+void fun_1b96() {
+    goto 0x1a00;
+}
+
+void fun_1b46() {
+    goto 0x1a00;
+}
+
+void fun_1a96() {
+    goto 0x1a00;
+}
+
+void fun_1ae6() {
+    goto 0x1a00;
+}
+
+void fun_1b36() {
+    goto 0x1a00;
+}
+
+void fun_1aa6() {
+    goto 0x1a00;
+}
+
+void fun_1b16() {
+    goto 0x1a00;
+}
+
+int32_t gnat_argc = 0;
+
+int64_t gnat_argv = 0;
+
+int64_t gnat_envp = 0;
+
+int32_t gnat_exit_status = 0;
+
+int64_t fun_1fcc(int32_t edi, int64_t rsi, int64_t rdx) {
+    void* rdi4;
+    int64_t rax5;
+
+    gnat_argc = edi;
+    gnat_argv = rsi;
+    gnat_envp = rdx;
+    rdi4 = reinterpret_cast<void*>(reinterpret_cast<int64_t>(__zero_stack_offset()) - 8 - 8);
+    fun_1af0(rdi4);
+    fun_1d7c(rdi4);
+    fun_298a(rdi4);
+    fun_1d52(rdi4);
+    fun_1a50(rdi4);
+    *reinterpret_cast<int32_t*>(&rax5) = gnat_exit_status;
+    *reinterpret_cast<int32_t*>(reinterpret_cast<int64_t>(&rax5) + 4) = 0;
+    return rax5;
+}
+
+void fun_2032() {
+    fun_1b60(0x2c58, 0x2c68);
+    return;
+}
+
+void fun_1d10() {
+    goto 0x1c80;
+}
+
+void fun_1bc6() {
+    goto 0x1a00;
+}
+
+void fun_1a56() {
+    goto 0x1a00;
+}
+
+void fun_1a36() {
+    goto 0x1a00;
+}
+
+void fun_1b56() {
+    goto 0x1a00;
+}
+
+void fun_1af6() {
+    goto 0x1a00;
+}
+
+void fun_2a30(int32_t edi, int64_t rsi, int64_t rdx) {
+    int64_t r15_4;
+    int32_t r13d5;
+    int64_t r14_6;
+    int64_t rbx7;
+    int64_t rdi8;
+
+    r15_4 = rdx;
+    r13d5 = edi;
+    r14_6 = rsi;
+    _init();
+    if (!0) {
+        *reinterpret_cast<int32_t*>(&rbx7) = 0;
+        *reinterpret_cast<int32_t*>(reinterpret_cast<int64_t>(&rbx7) + 4) = 0;
+        do {
+            *reinterpret_cast<int32_t*>(&rdi8) = r13d5;
+            *reinterpret_cast<int32_t*>(reinterpret_cast<int64_t>(&rdi8) + 4) = 0;
+            *reinterpret_cast<int64_t*>(0x203cb8 + rbx7 * 8)(rdi8, r14_6, r15_4);
+            ++rbx7;
+        } while (1 != rbx7);
+    }
+    return;
+}
+
+void fun_2066() {
+    fun_1b60("In 'send_secret_1'", 0x2c88);
+    return;
+}
+
+void fun_1d1a() {
+    uint32_t eax1;
+    uint32_t eax2;
+    uint32_t eax3;
+    uint32_t eax4;
+
+    eax1 = ada__text_io_E;
+    eax2 = eax1 - 1;
+    ada__text_io_E = *reinterpret_cast<uint16_t*>(&eax2);
+    fun_1bc0();
+    eax3 = system__file_io_E;
+    eax4 = eax3 - 1;
+    system__file_io_E = *reinterpret_cast<uint16_t*>(&eax4);
+    fun_1b80();
+    fun_1a30();
+    return;
+}
+
+void fun_1b76() {
+    goto 0x1a00;
+}
+
+void fun_264a() {
+    fun_1b50("qrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_24de() {
+    fun_1b50("jklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_216a() {
+    fun_1b50("23456789abcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_223a() {
+    fun_1b50("6789abcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_25ae() {
+    fun_1b50("nopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2442() {
+    fun_1b50("ghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_271a() {
+    fun_1b50("uvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_27b6() {
+    fun_1b50("xyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_22d6() {
+    fun_1b50("9abcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_1b66() {
+    goto 0x1a00;
+}
+
+void fun_209a() {
+    fun_1b60("In 'send_secret_2'In 'send_secret_3'0", 0x2c88);
+    return;
+}
+
+void fun_267e() {
+    fun_1b50("rstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2512() {
+    fun_1b50("klmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_219e() {
+    fun_1b50("3456789abcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2476() {
+    fun_1b50("hijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_274e() {
+    fun_1b50("vwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_27ea() {
+    fun_1b50("yzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_20ce() {
+    fun_1b60("In 'send_secret_3'0", 0x2c88);
+    return;
+}
+
+void fun_1b86() {
+    goto 0x1a00;
+}
+
+void fun_26b2() {
+    fun_1b50("stuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2546() {
+    fun_1b50("lmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_21d2() {
+    fun_1b50("456789abcdefghijklmnopqrstuvwxyzCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_281e() {
+    fun_1b50("zCTF_{}", 0x2cb8);
+    return;
+}
+
+void fun_2102() {
+    fun_1b50("0", 0x2cb8);
+    return;
+}
